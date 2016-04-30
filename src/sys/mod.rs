@@ -18,6 +18,8 @@ pub mod memfd;
 #[macro_use]
 pub mod ioctl;
 
+pub mod resource;
+
 #[cfg(any(target_os = "linux", target_os = "android"))]
 pub mod sendfile;
 
